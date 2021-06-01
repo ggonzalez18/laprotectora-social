@@ -378,3 +378,9 @@
             text-align: center;
             color: #474646!important;
         }
+        
+        .banner_button_text,
+        .banner_button_text:hover {
+            text-decoration: none;
+            color: white;
+        }
