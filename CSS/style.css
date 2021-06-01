@@ -1,0 +1,380 @@
+        /* @font-face {
+    font-family:'Open Sans', sans-serif;
+} */
+        
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Open Sans', sans-serif;
+            padding-top: 90px;
+        }
+        
+        .nav-color {
+            background-color: #164284;
+            color: white;
+            font-size: 16px;
+            font-weight: 400;
+        }
+        
+        .infogra {
+            margin-top: 3%;
+            background-image: url("../imagenes/la_protectora_flujo_ayuda_programa_familia.png");
+            width: 100%;
+            background-repeat: no-repeat;
+            position: center;
+            height: 400px;
+            background-size: contain;
+            margin: 8% 0% 0% 5%;
+        }
+        
+        .infograprog {
+            margin-top: 3%;
+            background-image: url("../imagenes/formulario_laprotectora_form.jpg");
+            width: 100%;
+            background-repeat: no-repeat;
+            position: ;
+            height: 400px;
+            background-size: contain;
+            margin: 0% 0% 0% 8%;
+        }
+        
+        .seño {
+            margin-top: 0%;
+            background-image: url("../imagenes/la_protectora_apoyo_jardines.jpg");
+            width: 100%;
+            background-repeat: no-repeat;
+            position: right;
+            height: 360px;
+            background-size: contain;
+        }
+        
+        .video {
+            margin-top: 3%;
+            background-color: #ffffff;
+            width: 100%;
+            background-repeat: no-repeat;
+            position: right;
+            height: 100%;
+            background-size: contain;
+        }
+        
+        .colorfot {
+            background-color: #164284;
+        }
+        
+        .pill {
+            color: 0081C2;
+        }
+        
+        .section_color {
+            padding: 45px 0px;
+            background-color: #E1E6EF;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .content-card-float {
+            min-height: 350px;
+            /*border-top: 75px solid #E1E6EF;
+    border-bottom: 75px solid #E1E6EF;*/
+        }
+        
+        .card-float {
+            background: none repeat scroll 0 0 #ffffff;
+            border: 1px solid #ebebeb;
+            border-radius: 55px 55px 55px 55px;
+            box-shadow: 0 10px 12px -5px #a5a5a5;
+            min-height: 350px;
+            margin: -80px 0px 0px 0px;
+            width: 100%;
+            padding: 20px;
+        }
+        
+        .card-float2 {
+            background: none repeat scroll 0 0;
+            border: 0px solid #ebebeb;
+            border-radius: 55px 55px 55px 55px;
+            /*box-shadow: 0 10px 12px -5px #a5a5a5;*/
+            min-height: 350px;
+            margin: -140px 0px 0px 0px;
+            width: 100%;
+            padding: 20px;
+        }
+        
+        .btn-social-sm {
+            padding: .375rem .75rem;
+            display: block;
+            border-radius: .2rem;
+            border: 1px solid transparent;
+            font-size: .875rem;
+            line-height: 1.5;
+            text-align: center;
+            text-decoration: none;
+            background-color: #0081C2;
+            color: white;
+            width: 160px;
+        }
+        
+        .btn-social-sm:hover {
+            background-color: #164284;
+            color: white;
+            font-weight: 600;
+        }
+        
+        .btn-social-sm.nav-link:active {
+            font-weight: 600;
+            text-decoration: none;
+            background-color: #164284!important;
+        }
+        
+        .social-parrafo-regular {
+            color: #727475;
+            font-size: 16px;
+        }
+        
+        .col_cuadro {
+            color: #164284;
+            font-size: 14px;
+        }
+        
+        .img_social {
+            height: 20%
+        }
+        
+        .titu_section {
+            color: #164284
+        }
+        
+        .btn-secondary {
+            background-color: #0081C2 !important;
+        }
+        
+        .btn-secondary:hover {
+            background-color: #164284 !important;
+        }
+        
+        .text-successs {
+            color: grey;
+        }
+        
+        .imagenprog {
+            display: flex;
+            align-items: center;
+        }
+        
+        .card-image-top-social1 {
+            border-radius: 55px 55px 0px 0px;
+            min-height: 150px;
+            width: 100%;
+            background-image: url("../imagenes/programa_protectora_infancia.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+        .card-image-top-social2 {
+            border-radius: 55px 55px 0px 0px;
+            min-height: 150px;
+            width: 100%;
+            background-image: url("../imagenes/programa_protectora_familia.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+        .card-image-top-social3 {
+            border-radius: 55px 55px 0px 0px;
+            min-height: 150px;
+            width: 100%;
+            background-image: url("../imagenes/programa_protectora_hogares.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+        .bgtarjetas {
+            background-color: white;
+        }
+        
+        .card-float-interior-with-img {
+            background: none repeat scroll 0 0 #ffffff;
+            border: 1px solid #ebebeb;
+            border-radius: 55px 55px 55px 55px;
+            box-shadow: 0 10px 12px -5px #a5a5a5;
+            min-height: 250px;
+            margin: 15px 10px;
+        }
+        
+        .margentit {
+            min-height: 130px;
+            margin: 13% 0% 0% 0%;
+            width: 100%;
+            padding: 0%;
+        }
+        
+        .margentit4 {
+            min-height: 130px;
+            margin: -10% 0% 0% 0%;
+            width: 100%;
+            padding: 0%;
+        }
+        
+        .dropdown-menu {
+            color: white!important;
+            background-color: #164284c2!important;
+            border: 0 !important;
+            border-radius: 0!important;
+        }
+        
+        .dropdown-item {
+            color: white!important;
+        }
+        
+        .dropdown-item:hover {
+            font-weight: bold!important;
+            color: white!important;
+            background-color: #164284!important;
+        }
+        
+        .social_img1 {
+            background-image: url("../imagenes/protectora_de_la_infancia_awakelab-32.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 240px;
+        }
+        
+        .social_img2 {
+            background-image: url("../imagenes/protectora_de_la_infancia_awakelab-11.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 240px;
+        }
+        
+        .social_img3 {
+            background-image: url("../imagenes/protectora_de_la_infancia_awakelab-33.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 240px;
+        }
+        
+        footer {
+            background-color: #164284;
+            color: white;
+            padding: 20px;
+        }
+        
+        .footer-text {
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.66);
+            text-align: left;
+        }
+        
+        .footer-text:hover {
+            text-decoration: none;
+            color: white;
+            text-align: left;
+        }
+        
+        .footer-parrafo-text {
+            margin: 0px 0px 5px 0px;
+        }
+        
+        .title-sites-blue {
+            font-size: 36px;
+            text-align: center;
+            color: #164284;
+        }
+        /* breadcrum */
+        
+        .bread-crumb {
+            display: flex;
+            padding: .75rem 1rem;
+            list-style: none;
+        }
+        
+        .bread-crumb-separate.bread-crumb-separate::before {
+            /* padding-right: .5rem; */
+            padding: 0rem .5rem;
+            color: #7AB24D;
+            content: ">";
+            font-weight: bolder;
+        }
+        
+        .enlace_text {
+            text-decoration: none;
+            color: #727475;
+            font-size: 16px;
+        }
+        
+        .enlace_text:hover {
+            text-decoration: none;
+            color: #7AB24D;
+            font-weight: bold;
+        }
+        /* botones */
+        
+        .btn-social {
+            padding: .5rem 1rem;
+            display: block;
+            border-radius: .2rem;
+            border: 1px solid transparent;
+            font-size: 1rem;
+            line-height: 1.5;
+            text-align: center;
+            text-decoration: none;
+            background-color: #7AB24D;
+            color: white;
+            width: 170px;
+        }
+        
+        .btn-social:hover {
+            background-color: #C0D100;
+            color: white;
+            font-weight: 600;
+        }
+        /* text */
+        
+        .parrafo-regular {
+            color: #727475;
+            font-size: 16px;
+        }
+        /* .title-sites-gray {
+            font-size: 36px;
+            text-align: center;
+            color: #474646;
+        } */
+        
+        .subtitle-site-title {
+            color: #474646;
+            font-size: 28px;
+        }
+        
+        .btn-social-large {
+            padding: .5rem 1rem;
+            display: block;
+            border-radius: .2rem;
+            border: 1px solid transparent;
+            font-size: 1rem;
+            line-height: 1.5;
+            text-align: center;
+            text-decoration: none;
+            background-color: #0081C2;
+            color: white;
+            width: 300px;
+        }
+        
+        .btn-social-large:hover {
+            background-color: #164284;
+        }
+        
+        .jardines-title {
+            font-size: 36px;
+            text-align: center;
+            color: #474646!important;
+        }
